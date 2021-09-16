@@ -2,7 +2,7 @@
   height: 65px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:space-evenly;
   background-color: #fff;
   position: sticky;
   top: 0;
@@ -36,33 +36,18 @@
   display: flex;
   cursor: pointer;
 }
-.header__optionLineOne {
-  font-size: 14px;
-}
-.header__optionLineTwo {
-  font-size: 14px;
-  font-weight: 800;
-}
+
 .header__optionBasket {
   display: grid;
   align-items: center;
-  color: #f50a0a;
+  color: #2b40b6;
 }
 .header__basketCount {
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.header__nav {
-  display: flex;
-}
-.header__option {
-  display: flex;
-  flex-direction: column;
-  margin-left: 10px;
-  margin-right: 10px;
-  color: #2b40b6;
-}
+
 .header__clearlink {
   text-decoration: none;
 }

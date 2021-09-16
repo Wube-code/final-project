@@ -19,20 +19,7 @@ function Header() {
           Search
         </div>
       </div>
-      <div className="header__nav">
-        <Link to="/" className="header__clearlink">
-          <div className="header__option">
-            <span className="header__optionLineOne">sign In </span>
-            <span className="header__optionLineTwo">Join Free </span>
-          </div>
-        </Link>
-        <Link to="/" className="header__clearlink">
-          <div className="header__option">
-            <span className="header__optionLineOne"> Returns</span>
-            <span className="header__optionLineTwo">& Orders</span>
-          </div>
-        </Link>
-        
+      <div className="header__nav"> 
         <Link to="/cart" className="header__clearlink">
           <div className="header__optionBasket">
             <span className="header__optionLineTwo header__basketCount">

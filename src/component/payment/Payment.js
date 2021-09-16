@@ -162,14 +162,14 @@ const PaymentWrapper = styled.div`
     padding-bottom: 20px;
   }
   button {
-    background: #731649;
+    background: #2b40b6;
     border-radius: 2px;
     width: 100%;
     height: 30px;
     border: 1px solid;
     font-weight: bolder;
     margin-top: 10px;
-    border-color: #731649;
+    border-color: #2b40b6;
     color: #fff;
   }
 `;
